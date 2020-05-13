@@ -1,3 +1,9 @@
 https://download.oracle.com/otn_software/linux/instantclient/19600/instantclient-basic-linux.x64-19.6.0.0.0dbru.zip
 https://download.oracle.com/otn_software/linux/instantclient/19600/instantclient-sqlplus-linux.x64-19.6.0.0.0dbru.zip
 https://download.oracle.com/otn_software/linux/instantclient/19600/instantclient-tools-linux.x64-19.6.0.0.0dbru.zip
+
+On linux you can do that:
+
+wget https://download.oracle.com/otn_software/linux/instantclient/19600/instantclient-basic-linux.x64-19.6.0.0.0dbru.zip
+wget https://download.oracle.com/otn_software/linux/instantclient/19600/instantclient-sqlplus-linux.x64-19.6.0.0.0dbru.zip
+wget https://download.oracle.com/otn_software/linux/instantclient/19600/instantclient-tools-linux.x64-19.6.0.0.0dbru.zip
