@@ -11,8 +11,8 @@ Manuals and all information related to this workshop, that covers:
 
 Notebooks used in the workshop also availabe for download:
 
- * OML4Py.zip          --> OML4Py Jupyter notebooks
- * OML4Py.Zeppelin.zip --> OML4Py Zepperlin notebooks
+ * OML4Py.zip          --> OML4Py notebooks (Jupyter version)
+ * OML4Py.Zeppelin.zip --> OML4Py notebooks (Zeppelin version)
  * OML4R.zip           --> OML4R RStudio notebooks
 
 All this functionality is available in your Oracle Database 19c and up included in EE license.
