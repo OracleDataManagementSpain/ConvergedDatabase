@@ -9,7 +9,13 @@ Manuals and all information related to this workshop, that covers:
  * Machine Learning with R and Python executed in-database
  * Property Graph analytics and vistualization using PGX
 
-All this functionality is available in your Oracle Database 19c and up at no cost.
+Notebooks used in the workshop also availabe for download:
+
+ * OML4Py.zip          --> OML4Py Jupyter notebooks
+ * OML4Py.Zeppelin.zip --> OML4Py Zepperlin notebooks
+ * OML4R.zip           --> OML4R RStudio notebooks
+
+All this functionality is available in your Oracle Database 19c and up included in EE license.
 
 For more information, refer to your instructor.
 
