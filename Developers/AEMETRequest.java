@@ -11,17 +11,16 @@ import javax.json.JsonObject;
 //
 
 public class AEMETRequest {
-  public static String GetAEMETInfo () throws IOException{
+  public static String GetAEMETInfo (String station_id, String fecha_inicio, String fecha_fin) throws IOException{
   //public static void main(String []args) throws IOException{
   
-    String station_id="8178D"; // to be recived as parameter
     
     String api_key = "";
 
     OkHttpClient client = new OkHttpClient().newBuilder().build();
 
     Request request = new Request.Builder()
-      .url("https://opendata.aemet.es/opendata/api/valores/climatologicos/diarios/datos/fechaini/2021-01-01T00:00:00UTC/fechafin/2021-01-01T12:00:00UTC/estacion/" + station_id + "/?api_key=" + api_key )
+      .url("https://opendata.aemet.es/opendata/api/valores/climatologicos/diarios/datos/fechaini/" + fecha_inicio + "/fechafin/" + fecha_fin + "/estacion/" + station_id + "/?api_key=" + api_key )
       .get()
       .addHeader("cache-control", "no-cache")
       .build();
