@@ -21,22 +21,22 @@ public class TSPRequestDBtoGeoJson {
         Connection conn = DriverManager.getConnection("jdbc:default:connection:"); 	
     	
     	String [] start_loc_arr = start_loc.split(";");
-    	start_street=start_loc_arr[0];
-   	    start_city=start_loc_arr[1];
-   	    start_postalcode=start_loc_arr[2];
-    	start_region=start_loc_arr[3];
+    	String start_street=start_loc_arr[0];
+   	String     start_city=start_loc_arr[1];
+   	String     start_postalcode=start_loc_arr[2];
+    	String start_region=start_loc_arr[3];
  
     	String [] loc_2_arr = loc_2.split(";");
-    	loc_2_street=loc_2_arr[0];
-    	loc_2_city=loc_2_arr[1];
-   	    loc_2_postalcode=loc_2_arr[2];
-   	    loc_2_region=loc_2_arr[3];    	
+    	String loc_2_street=loc_2_arr[0];
+    	String loc_2_city=loc_2_arr[1];
+   	String     loc_2_postalcode=loc_2_arr[2];
+   	String     loc_2_region=loc_2_arr[3];    	
   	
     	String [] loc_3_arr = loc_3.split(";");
-    	loc_3_street=loc_3_arr[0];
-    	loc_3_city=loc_3_arr[1];
-   	    loc_3_postalcode=loc_3_arr[2];
-  	    loc_3_region=loc_3_arr[3];    	
+    	String loc_3_street=loc_3_arr[0];
+    	String loc_3_city=loc_3_arr[1];
+   	String     loc_3_postalcode=loc_3_arr[2];
+  	String     loc_3_region=loc_3_arr[3];    	
 
 		URL url = new URL("http://maps.oracle.com/elocation/route");
 		URLConnection con = url.openConnection();
