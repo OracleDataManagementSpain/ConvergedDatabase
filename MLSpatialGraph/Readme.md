@@ -26,6 +26,6 @@ To deploy this workshop in your OCI tenancy, please click the following button:
 
 [![Deploy Machine Learning, Spatial and Graph Workshop to my Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/OracleDataManagementSpain/ConvergedDatabase/raw/master/MLSpatialGraph/omlws.zip)
 
-This will create an virtual machine with all the required software preloaded and ready to be used.
+This will create an virtual machine with all the required software preloaded and ready to be used. Just connect to the public IP with a Remote Desktop client as user oracle and password 'OML4ever'. Don't forget to change this password as soon as you connect to the server.
 
 Enjoy the workshop!
